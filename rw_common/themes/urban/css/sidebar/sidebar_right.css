@@ -1,0 +1,48 @@
+#container { 
+	background: repeat-y url(../../images/content_right_bg.png);
+}
+
+#pageHeader {
+	background: no-repeat url(../../images/header_right_bg.png);
+}
+
+#contentContainer {
+	float: left;
+}
+
+#contentContainer #content {
+	padding-left: 40px;
+	padding-right: 0px;
+}
+
+#breadcrumbcontainer ul {
+	padding-left: 40px;
+	padding-right: 0px;
+}
+
+#footer {
+	background: no-repeat url(../../images/footer_right_bg.png);
+	text-align: left;
+}
+
+#footer p {
+	margin: 0 0 0 40px;
+	padding: 30px 0 0;
+}
+
+#sideOverlay {
+	left: auto;
+	right: 21px;
+	bottom: 79px;
+}
+
+#sidebarContainer {
+	float: right;
+	margin-left: 0px;
+	margin-right: 11px;
+}
+
+html>body #sidebarContainer{
+	margin-left: 0px;
+	margin-right: 21px;
+}

@@ -1,0 +1,33 @@
+#container { 
+	background: repeat-y url(../../images/content_none_bg.png);
+}
+
+#pageHeader {
+	background: no-repeat url(../../images/header_none_bg.png);
+}
+
+#footer {
+	background: no-repeat url(../../images/footer_none_bg.png);
+}
+
+#sideOverlay {
+	display: none;
+}
+
+#contentContainer {
+	width: auto;
+}
+
+#contentContainer #content {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#breadcrumbcontainer ul {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#sidebarContainer {
+	display: none;
+}
