@@ -1,0 +1,324 @@
+/* @group General Styles */
+
+body {
+	background: transparent none;
+	margin: 20mm 18mm 20mm 18mm;
+	text-align: left;
+	color: #000000;
+	padding: 0pt;
+	font: 11pt/16pt "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+p { 
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+a:link, a:visited {
+}
+
+a:hover, a:active {
+}
+	
+/* @end */
+
+/* @group Layout */
+
+#bodyGrad {
+	display: none;
+}
+
+#container {
+	text-align: left;
+	width: 100%;
+	padding: 0pt;
+	margin: 0pt;
+}
+
+#pageHeader {
+	text-align: left;
+	background: none;
+	border-bottom: 1pt solid #cccccc;
+	padding-bottom: 16pt;
+	overflow: hidden;
+}
+
+#pageHeader #grad {
+	display: none;
+}
+
+#pageHeader img {
+	float: right;
+}
+
+#pageHeader h1 {
+	color: #000000;
+	margin: 0 0 11pt 0;
+	font-weight: bold;
+	font-size: 18pt;
+	padding: 0pt;
+}
+
+#pageHeader h2 {
+	color: #333333;
+	margin: 0;
+	font-size: 14pt;
+	font-weight: normal;
+	padding: 0pt;
+}
+
+#contentContainer {
+	float: none !important;
+	padding: 0pt;
+	margin-bottom: 10pt;
+}
+
+#contentContainer #content {
+	padding: 0pt;
+}
+
+#contentContainer #content img {
+}
+
+#sidebarContainer {
+	float: none;
+	width: auto;
+	border-bottom: 1pt solid #cccccc;
+	margin: 0;
+	padding: 16pt 0;
+}
+
+.sideHeader {
+	font-size: 15pt;
+	margin: 0 0 11pt 0;
+}
+
+#sidebarContainer .sidebar {
+}
+
+#footer {
+	text-align: center; 
+	background: none;
+	color: #000000;
+	font-size: 10pt;
+	border-top: 1pt solid #cccccc;
+	margin-top: 8mm;
+	padding-top: 10mm;
+}
+
+#footer a {
+}
+
+#footer a:hover {
+}
+	
+/* @end */
+
+/* @group toolbar */
+
+#navcontainer {
+	display: none;
+}
+	
+/* @end */
+
+/* @group Bread-crumb */
+
+#breadcrumbcontainer {
+	display: none;
+}
+	
+/* @end */
+
+/* @group Global Classes */
+
+.standout {
+	color: #474747;
+	font-size: 11pt;
+	font-weight: bold;
+	letter-spacing: 1pt;
+	word-spacing: 2pt;
+	padding: 40pt;
+	background-color: #f5f5f5;
+	font-style: italic;
+}
+
+h1 {
+	font-size: 18pt;
+	font-weight: bold;
+	margin-bottom: 11pt;
+}
+
+h2 {
+	font-size: 15pt;
+	font-weight: bold;
+	margin-bottom: 11pt;
+}
+
+h3 {
+	font-size: 14pt;
+	font-weight: bold;
+	margin-bottom: 11pt;
+}
+
+h4 {
+	font-size: 13pt;
+	font-weight: bold;
+	margin-bottom: 11pt;
+}
+
+h5 {
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 11pt;
+}
+
+.imageStyle {
+}
+	
+/* @end */
+
+/* @group Blog */
+
+.blog-entry {
+	border-style: none;
+}
+
+.blog-entry-title {
+	font-size: 16pt;
+	font-weight: bold;
+	margin-bottom: 11pt;
+	border-style: none;
+}
+
+.blog-entry-date {
+	margin-bottom: 11pt;
+	margin-top: 5pt;
+	border-style: none;
+	font-size: 10pt;
+	color: #333333;
+}
+
+.blog-entry-body {
+	margin-bottom: 45pt;
+	border-style: none;
+}
+	
+/* @end */
+
+/* @group File Sharing */
+
+.filesharing-description {
+	margin-bottom: 20pt;
+	border-bottom: 1pt solid #d9d9d9;
+}
+
+.filesharing-item {
+	
+}
+
+.filesharing-item-title {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.filesharing-item-description {
+	margin-bottom: 10pt;
+}
+
+/* @end */
+
+/* @group Photo Album */
+
+/* @group Index Page (Thumbnail view) */
+
+.album-title {
+	font-size: 16pt;
+	font-weight: bold;
+	margin-bottom: 3pt;
+}
+
+.album-description {
+}
+
+.thumbnail-frame {
+	margin: 0pt;
+	padding: 0pt;
+}
+
+.thumbnail-frame a {
+}
+
+.thumbnail-frame img {
+	background: repeat url(images/sidebar_bg.png);
+}
+
+.thumbnail-caption {
+	color: #4c4c4c;
+	margin-top: -2pt;
+	font-size: 10pt;
+}
+	
+/* @end */
+
+/* @group Single Page (Photo view) */
+
+.photo-background {
+	text-align: center;
+}
+
+.photo-navigation {
+	background: none;
+	display: none;
+}
+
+.photo-navigation a {
+	display: none;
+}
+
+.photo-navigation a:hover {
+	display: none;
+}
+
+.photo-frame{
+
+}
+
+.photo-links {
+	display: none;
+}
+
+.photo-title {
+	display: none;
+}
+
+.photo-caption {
+	font-size: 11pt;
+	margin: 0pt;
+	text-align: center;
+}
+
+/* @end */
+	
+/* @end */
+
+/* @group Quicktime Page */
+
+.movie-title {
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+.movie-description {
+	text-align: center;
+}
+
+.movie-frame {
+	text-align: center;
+	margin-bottom: 10pt;
+}
+	
+/* @end */
